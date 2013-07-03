@@ -1,0 +1,32 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<script src="spaceinvaders.js"></script>
+
+	<style>
+	  canvas {border:6px solid blue}
+	</style>
+</head>
+
+<body>
+
+<h1>Invad3rs</h1>
+<div>
+The enemies are coming to invade your homeland! You must eradicate them all before they touch your sweet sweet soil. Move with A and D, and shoot with space.
+</div>
+<div onkeypress="shoot()">
+<canvas width="400" height="400" id="mycanvas" "></canvas>
+</div>
+<br/>
+<button onclick="toggle()">Toggle Game</button>
+<button onclick="shoot()">Shoot</button>
+<button onclick="left()">Left</button>
+<button onclick="right()">Right</button>
+<button onclick="restart()">Restart Game</button>
+
+
+</body>
+</html>
