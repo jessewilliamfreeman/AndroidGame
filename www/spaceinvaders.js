@@ -173,9 +173,9 @@ invader.prototype.update = function(){
 			this.y -= 200.0*dt/1000.0
 		}
 		if (gm.directionRight) {
-			this.x += 20.0*dt/1000.0
+			this.x += 10.0*dt/1000.0
 		} else {
-			this.x -= 20.0*dt/1000.0
+			this.x -= 10.0*dt/1000.0
 		}
 //		this.x += this.vx*dt/1000.0;
 //		this.y += this.vy*dt/1000.0;	
